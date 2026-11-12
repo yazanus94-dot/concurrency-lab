@@ -1,0 +1,12 @@
+.git
+.gitignore
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+*.md
+target/
+*.class
+*.log
+*.tmp
+.idea/
+.vscode/

@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  concurrency-lab:
+    build: .
+    container_name: concurrency-lab
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      - JAVA_OPTS=-Xmx512m
